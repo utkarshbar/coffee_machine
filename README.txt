@@ -5,8 +5,8 @@ Command for running the test Cases:
 
 
  Assumptions:
- I. Only 5 kind of Drinks are Allowed
-    1.hot_tea 2.hot_coffee 3.black_tea 4.green_tea 5.hot_water
+ I. Only 4 kind of Drinks are Allowed
+    1.hot_tea 2.hot_coffee 3.black_tea 4.green_tea 
     Input is going to be these 5 drinks only
  II. Any Drink can have requirement of these ingredients only
     HotWater, HotMilk, GingerSyrup, SugarSyrup, TeaLeavesSyrup, GreenMixtrue
