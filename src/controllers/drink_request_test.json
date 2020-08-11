@@ -1,0 +1,114 @@
+{
+  "inputs": [
+    {
+      "requests": [
+        [
+          "hot_tea",
+          "hot_coffee",
+          "green_tea"
+        ],
+        [
+          "black_tea"
+        ]
+      ]
+    },
+    {
+      "requests": [
+        [
+          "hot_tea",
+          "black_tea",
+          "green_tea"
+        ],
+        [
+          "hot_coffee"
+        ]
+      ]
+    },
+    {
+      "requests": [
+        [
+          "hot_tea",
+          "black_tea"
+        ],
+        [
+          "green_tea",
+          "hot_coffee"
+        ]
+      ]
+    },
+    {
+      "requests": [
+        [
+          "hot_coffXXX"
+        ],
+        [
+          "black_tea"
+        ],
+        [
+          "hot_tea"
+        ]
+      ]
+    },
+    {
+      "requests": [
+        [
+          "hot_coffee",
+          "black_tea",
+          "hot_tea",
+          "green_tea"
+        ]
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "responses": [
+        [
+          "hot_tea is prepared",
+          "hot_coffee is prepared",
+          "green_tea cannot be prepared because green_mixture is not available"
+        ],
+        [
+          "black_tea cannot be prepared because item hot_water is not sufficient"
+        ]
+      ]
+    },
+    {
+      "responses": [
+        [
+          "hot_tea is prepared",
+          "black_tea is prepared",
+          "green_tea cannot be prepared because green_mixture is not available"
+        ],
+        [
+          "hot_coffee cannot be prepared because item hot_water is not sufficient"
+        ]
+      ]
+    },
+    {
+      "responses": [
+        [
+          "hot_tea is prepared",
+          "black_tea is prepared"
+        ],
+        [
+          "green_tea cannot be prepared because green_mixture is not available",
+          "hot_coffee cannot be prepared because item hot_water is not sufficient"
+        ]
+      ]
+    },
+    {
+      "responses": [
+        ["Invalid drink"],
+        ["black_tea is prepared"],
+        ["hot_tea is prepared"]
+      ]
+    }
+    ,
+    {
+      "responses": [
+        ["Only 3 parallel requests are allowed"]
+      ]
+    }
+  ]
+}
