@@ -1,7 +1,7 @@
 Command for running the test Cases:
     1. export PROJECT_PATH = $(pwd)
     2. Set GOPATH 
-    3. go test src/controllers/coffee_machine_test.go
+    3. Run Command: go test src/controllers/coffee_machine_test.go
 
 
  Assumptions:
