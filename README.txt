@@ -25,5 +25,5 @@ src folders contain 4 sub folders:
     d) It consist of unit test cases for the above two functions (filename: coffee_machine_test.go)
 
 3. models: It consist of structs for storing the machine infos
-4. utils:  It consist of logic for notifying in case of ingredients are not available(function NotifyEmptyIngredient filename: utils.go)
+4. utils:  It consist of logic for notifying in case ingredients are not available(function NotifyEmptyIngredient filename: utils.go)
 
